@@ -21,7 +21,7 @@ public class ThreeSum {
             if(i > 0 && nums[i] == nums[i-1]){
                 continue;
             }
-            int l = i;
+            int l = i + 1;
             int r = nums.length -1;
             while(l < r){
                 int threeSum = nums[i] + nums[l] + nums[r];
